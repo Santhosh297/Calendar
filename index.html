@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="evo-calendar.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div id="calendar"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#calendar').evoCalendar({
+
+                calendarEvents: [
+                    {
+                        id: 'Event1', // Event's ID (required)
+                        name: "Happy New Year", // Event name (required)
+                        date: "January/1/2020", // Event date (required)
+                        type: "holiday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+
+                    },
+                    {
+                        id: 'Event2', // Event's ID (required)
+                        name: " Birthday", // Event name (required)
+                        description: "<b>Santhosh and It's me</b> ",
+                        date: "January/29/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event3', // Event's ID (required)
+                        name: "Birthday", // Event name (required)
+                        description: "<b>Mani Bharathi(amma)</b>",
+                        date: "March/31/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event4', // Event's ID (required)
+                        name: "Birthday", // Event name (required)
+                        description: "<b>Sankari devi(sister)</b> ",
+                        date: "April/26/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event5', // Event's ID (required)
+                        name: "Birthday", // Event name (required)
+                        description: "<b>Ooviya(friend)</b>",
+                        date: "may/21/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event6', // Event's ID (required)
+                        name: "Birthday",
+                        description: "<b>Maran(uncle) and Vicky(cousin)</b> ", // Event name (required)
+                        date: "may/14/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event7', // Event's ID (required)
+                        name: "Birthday",
+                        description: "<b>Priya dharshini(friend)</b>", // Event name (required)
+                        date: "April/9/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event8', // Event's ID (required)
+                        name: "Birthday",
+                        description: "<b>Ranjith(cousin)</b>", // Event name (required)
+                        date: "October/26/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event9', // Event's ID (required)
+                        name: "Birthday",
+                        description: "<b>Mani kandan(sister son)</b>", // Event name (required)
+                        date: "August/30/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                    {
+                        id: 'Event10', // Event's ID (required)
+                        name: "Birthday",
+                        description: "<b>Kumaran(Brother)</b>", // Event name (required)
+                        date: "September/17/2020", // Event date (required)
+                        type: "Birthday", // Event type (required)
+                        everyYear: true, // Same event every year (optional)
+                        color: "#11324D"
+                    },
+                ]
+            })
+        })
+    </script>
+
+</body>
+
+</html>
