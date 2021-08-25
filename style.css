@@ -185,13 +185,16 @@ th[colspan="7"]::after {
 @media screen and (max-width: 768px)
 {
     
-   #calendar
-    {
-        width: 80%;
-        height: auto;
-
-    }
-
+.main
+{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    background:linear-gradient(45deg,#bdc3c7,#2c3e50);
+}
 .calendar-inner {
     padding: 50px 8px 70px 8px !important ;
     max-width: 100%;
