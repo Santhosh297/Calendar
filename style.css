@@ -189,18 +189,9 @@ th[colspan="7"]::after {
     {
         width: 80%;
         height: auto;
-        margin-top: 20px;
+
     }
-.main
-{
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
-    width: 100%;
-    background:linear-gradient(45deg,#bdc3c7,#2c3e50);
-}
+
 .calendar-inner {
     padding: 50px 8px 70px 8px !important ;
     max-width: 100%;
