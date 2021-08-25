@@ -203,6 +203,12 @@ th[colspan="7"]
 {
     padding-top: 30px !important;
 }
+    tr.calendar-header .calendar-header-day
+{
+   padding-top :25px !important;
+   padding-bottom: 5px !important;
+   font-size: 18px !important;
+}
 .month-list
 {
     background-color:#11324D !important ;
